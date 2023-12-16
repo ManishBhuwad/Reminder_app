@@ -81,11 +81,11 @@ function ViewReminder({rem}) {
                 </div>
             </div>
             
-            <div className='w-full text-sm sm:text-xl mt-2 font-thin text-gray-200'><span className='text-black/50 text-lg sm:text-xl'>Description</span><br />
+            <div className='w-full text-sm sm:text-xl mt-2 font-thin text-black/80'><span className='text-black/50 text-lg sm:text-xl'>Description</span><br />
                 <input type="text" value={description} onChange={(e)=>setDescription(e.target.value)}
                 className={`w-full outline-none bg-transparent ${isEditable ? "outline border ": "border-transparent" }`} readOnly={!isEditable}/>
             </div>
-            <div className='w-full text-sm sm:text-xl mt-2 font-thin text-gray-200'>
+            <div className='w-full text-sm sm:text-xl mt-2 font-thin text-black/80'>
             <span className='text-black/50 text-lg sm:text-xl'>Message</span><br />
             <input type="text" value={sms} onChange={(e)=>setSms(e.target.value)}
                 className={`w-full outline-none bg-transparent ${isEditable ? "outline border ": "border-transparent" }`} readOnly={!isEditable}/>
