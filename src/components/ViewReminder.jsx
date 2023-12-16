@@ -68,7 +68,7 @@ function ViewReminder({rem}) {
     }
 
   return (
-    <div className='w-full sm:w-11/12 bg-purple-600 mx-auto rounded-md overflow-hidden mb-10'>
+    <div className='w-full sm:w-11/12 bg-gray-200 mx-auto rounded-md overflow-hidden mb-10'>
         <div className=" text-white w-full p-2">
             <div className='w-full flex justify-between'>
                 <p className='p-1 text-sm sm:p-2 rounded-b-md  sm:text-lg text-white bg-green-600 w-fit'>
